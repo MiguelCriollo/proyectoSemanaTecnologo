@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+    background-color: rgb(199, 197, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #87cefa, #f5f5f5);
+}
+body{
+    height: 100%;
+    display: flex;
+    
+}
+.secciones{
+    flex-grow: 1;
+}
+
+.parte1{
+    height: 100%;
+    flex-basis: 30%;
+    border-style: dotted;
+}
+.parte2{
+    height: 100%;
+    flex-basis: 40%;
+    border-style: dotted;
+}
+.parte3{
+    height: 100%;
+    flex-basis: 30%;
+    border-style: dotted;
+}
+
+
+
+/*Seccion 1*/
+.seccionesIzquierda{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.parte1secciones{
+    flex-grow: 1;
+}
+
+.logop1{
+    flex-basis: 20%;
+    border-style: dotted;
+}
+.menup1{
+    flex-basis: 70%;
+    border-style: dotted;
+}
+.usuariop1{
+    flex-basis: 10%;
+    border-style: dotted;
+}
+
+
+
+/* parte1secciones menup1*/
+.listasmenu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.seccionesmenu{
+    flex-grow: 1;
+    border-style: dotted;
+}
+
+
+
+/* Fin parte1secciones menup1*/
+
+
+/* Fin Seccion 1*/
+
+/*Seccion 3*/
+.seccionesDerecha{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.parte3secciones{
+    flex-grow: 1;
+}
+
+.buscadorp3{
+    flex-basis: 5%;
+    border-style: dotted;
+}
+.tendenciasp3{
+    flex-basis: 60%;
+    border-style: dotted;
+}
+.topp3{
+    flex-basis: 35%;
+    border-style: dotted;
+}
+/* Fin Seccion 3*/
