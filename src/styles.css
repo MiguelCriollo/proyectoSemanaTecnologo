@@ -18,18 +18,18 @@ body{
 .parte1{
     height: 100%;
     flex-basis: 30%;
-    border-style:solid;
+    
 }
 .parte2{
     height: 100%;
     flex-basis: 40%;
-    border-style:solid;
+    padding: 20px;
     background-color: rgb(219, 205, 214);
 }
 .parte3{
     height: 100%;
     flex-basis: 30%;
-    border-style:solid;
+    
 }
 
 
@@ -52,15 +52,17 @@ body{
 }
 .logop1{
     flex-basis: 20%;
-    border-style:solid;
+    
 }
 .menup1{
     flex-basis: 70%;
-    border-style:solid;
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
 }
 .usuariop1{
     flex-basis: 10%;
-    border-style:solid;
+    
 }
 
 
@@ -69,11 +71,11 @@ body{
 .listasmenu{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 90%;
 }
 .seccionesmenu{
     flex-grow: 1;
-    border-style:solid;
+    
 }
 
 
@@ -101,7 +103,7 @@ body{
 }
 .inicio1{
     flex-basis: 10%;
-    border-style:solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -110,7 +112,7 @@ body{
 
 .crearTweet{
     flex-basis: 90%;
-    border-style:solid;
+    
 }
 
 .seccionesCentro{
@@ -119,12 +121,12 @@ body{
 
 .fijo{
     flex-basis: 20%;
-    border-style:solid;
+    
     padding-bottom: 10px;
 }
 .contenido{
     flex-basis: 80%;
-    border-style:solid;
+    
     background-color: azure;
     display: flex;
     width: 100%;
@@ -138,7 +140,7 @@ body{
     width: 100px;
 }
 .partesPrincipalesTweet{
-    border-style:solid;
+    
     background-color: azure;
     display: flex;
     width: 100%;
@@ -149,20 +151,20 @@ body{
 }
 .logoPosteadr{
     flex-basis: 20%;
-    border-style:solid;
+    
 }
 .textoPosteador{
     flex-basis: 80%;
-    border-style:solid;
+    
 }
 
 .primerTweet{
     flex-basis: 50%;
-    border-style:solid;
+    
 }
 .segundoTweet{
     flex-basis: 50%;
-    border-style:solid;
+    
 
 }
 .caracteristicasTweet{
@@ -177,14 +179,15 @@ body{
 
 .soloLogo{
     flex-basis: 10%;
-    border-style:solid;
+    
 }
 .EstructuraTweet{
     flex-basis: 90%;
-    border-style:solid;
+    
 }
 .logoUsuarioTweet{
     width: 100px;
+
 }
 
 /* Info Usuario*/
@@ -198,11 +201,11 @@ body{
 }
 .logo{
     flex-basis: 20%;
-    border-style:solid;
+    
 }
 .nombresUsuario{
     flex-basis: 80%;
-    border-style:solid;
+    
 }
 .partesCrearTweet{
     width: 100%;
@@ -212,14 +215,7 @@ body{
     display: flex;
     align-items: center;
 }
-.icono1 {
-    font-size: 20px;
-    margin-right: 5px;
-  }
-  
-.texto {
-    font-size: 16px;
-}
+
 
 /* Fin Inf Usuario*/
 .conjuntoNombresUsuario{
@@ -233,15 +229,15 @@ body{
 }
 .nombreFalso{
     flex-basis: 50%;
-    border-style:solid;
+    
 }
 .nombreReal{
     flex-basis: 50%;
-    border-style:solid;
+    
 }
 .parteBotones{
     flex-basis: 10%;
-    border-style:solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -257,15 +253,15 @@ body{
 }
 .UserNames{
     flex-basis: 10%;
-    border-style:solid;
+    
 }
 .textTweet{
     flex-basis: 30%;
-    border-style:solid;
+    
 }
 .tweetImage{
     flex-basis: 60%;
-    border-style:solid;
+    
 }
 
 /*Fin Seccion 2*/
@@ -283,17 +279,17 @@ body{
 
 .buscadorp3{
     flex-basis: 5%;
-    border-style:solid;
+    
 }
 .tendenciasp3{
     flex-basis: 60%;
-    border-style:solid;
+    
     border-radius: 30px;
     background-color: #ff7987;
 }
 .topp3{
     flex-basis: 35%;
-    border-style:solid;
+    
     border-radius: 30px;
     background-color: #ff7987;
 }
