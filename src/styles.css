@@ -206,7 +206,19 @@ body{
 }
 .partesCrearTweet{
     width: 100%;
-    height: 100%    ;
+    height: 100%;
+}
+.navegadores{
+    display: flex;
+    align-items: center;
+}
+.icono1 {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+.texto {
+    font-size: 16px;
 }
 
 /* Fin Inf Usuario*/
@@ -255,6 +267,7 @@ body{
     flex-basis: 60%;
     border-style:solid;
 }
+
 /*Fin Seccion 2*/
 
 
