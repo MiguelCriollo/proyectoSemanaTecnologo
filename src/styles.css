@@ -234,6 +234,27 @@ body{
     justify-content: space-between;
     align-items: flex-start;
 }
+.partesTweets{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.parteTweetItem{
+    flex-grow: 1;
+}
+.UserNames{
+    flex-basis: 10%;
+    border-style:solid;
+}
+.textTweet{
+    flex-basis: 30%;
+    border-style:solid;
+}
+.tweetImage{
+    flex-basis: 60%;
+    border-style:solid;
+}
 /*Fin Seccion 2*/
 
 
